@@ -1,0 +1,133 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+@font-face {
+font-family: 'Wisdom Script AJ';
+src: url('../fonts/wisdom_script_aj.otf') format('opentype');
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width:1200px;
+  margin:0 auto;
+
+}
+
+.third-width {
+  width:355px;
+  float: left;
+}
+
+#section-left {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  height: 150px;
+  padding-bottom: 30px;
+}
+
+#section-center {
+  border: 1px solid #dedbdc;
+  height: 150px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+#section-right {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  height: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+/***** HEADER *****/
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float:left;
+}
+
+header img {
+  border-top:2px solid #77a466;
+  border-bottom:2px solid #77a466;
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+nav {
+  float:right;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  color:#77a466;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+/***** TOP *****/
+#top h2{
+  color:#77a466;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+
+/***** BOTTOM *****/
+#bottom {
+
+}
+
+#bottom h3{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#bottom p{
+  margin: 0px;
+}
+
+#bottom ul{
+  color:#77a466;
+  list-style-type: none;
+  padding: 0;
+}
+
+#bottom li{
+  margin-bottom: 10px;
+}
+
+/***** FOOTER *****/
+footer p {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 0;
+  clear: both;
+}
+
+footer p em {
+  font-family:'Wisdom Script AJ';
+  font-size:16px;
+  text-transform: lowercase;
+  color:#77a466;
+}
